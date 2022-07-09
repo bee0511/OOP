@@ -6,6 +6,8 @@
 
 授課時間 Semester：110-2 2021-22 Spring
 
+* 請勿抄襲
+
 ## How to start
 
 go to bin/Release/SelfMotivatedSystem.exe
