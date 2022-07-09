@@ -1,4 +1,4 @@
-# OOP-assignment3
+# OOP Assignment
 
 課程名稱 Course Name：資料結構與物件導向程式設計 Data Structures and Object-oriented Programming
 
