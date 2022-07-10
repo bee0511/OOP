@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\bee00\OneDrive - 國立陽明交通大學\桌面\學校\大一下\資料結構與物件導向\Lab\lab10\lab10_110550164\Project1\Project1\main.cpp(7,23): warning C4018: '<': signed/unsigned 不相符
+C:\Users\bee00\OneDrive - 國立陽明交通大學\桌面\學校\大一下\資料結構與物件導向\Lab\lab10\lab10_110550164\Project1\Project1\main.cpp(14,27): warning C4018: '>=': signed/unsigned 不相符
+  Project1.vcxproj -> C:\Users\bee00\OneDrive - 國立陽明交通大學\桌面\學校\大一下\資料結構與物件導向\Lab\lab10\lab10_110550164\Project1\Debug\Project1.exe

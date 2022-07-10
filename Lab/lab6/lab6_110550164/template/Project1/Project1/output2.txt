@@ -1,0 +1,43 @@
+ID is : Ashe
+Level is : 250
+Money is : 99999
+Hp is : 1
+Role Ashe is Archer
+
+ID is : DoReMi
+Level is : 1
+Money is : 0
+Hp is : 100000
+Role DoReMi is Magician
+
+ID is : Richman
+Level is : 10
+Money is : 1
+Hp is : 10
+Role Richman is Archer
+
+ID is : Feardog
+Level is : 1000
+Money is : 10000000
+Hp is : 1000000
+Role Feardog is Warrior
+
+ID is : Veigar
+Level is : 60
+Money is : 654
+Hp is : 753
+Role Veigar is Magician
+
+ID is : Sion
+Level is : 99
+Money is : 123456789
+Hp is : 987654321
+Role Sion is Warrior
+
+Checking whether the role can equip a staff..
+error bad_cast
+DoReMi can equip staff_flame.
+error bad_cast
+error bad_cast
+Veigar can equip staff_flame.
+error bad_cast

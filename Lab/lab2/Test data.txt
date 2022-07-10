@@ -1,0 +1,42 @@
+5
+13456 18543
+2233 2233
+66990 2233
+2 5
+37830 16490
+
+ANS :
+num1 = 13456
+num2 = 18543
+num1_Prime_factor : " 2 2 2 2 29 29 "
+num2_Prime_factor : " 3 7 883 "
+GCD : 1
+LCM : 249514608
+
+num1 = 2233
+num2 = 2233
+num1_Prime_factor : " 7 11 29 "
+num2_Prime_factor : " 7 11 29 "
+GCD : 2233
+LCM : 2233
+
+num1 = 66990
+num2 = 2233
+num1_Prime_factor : " 2 3 5 7 11 29 "
+num2_Prime_factor : " 7 11 29 "
+GCD : 2233
+LCM : 66990
+
+num1 = 2
+num2 = 5
+num1_Prime_factor : " 2 "
+num2_Prime_factor : " 5 "
+GCD : 1
+LCM : 10
+
+num1 = 37830
+num2 = 16490
+num1_Prime_factor : " 2 3 5 13 97 "
+num2_Prime_factor : " 2 5 17 97 "
+GCD : 970
+LCM : 643110
