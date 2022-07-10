@@ -1,8 +1,0 @@
-﻿  PokerGame.cpp
-C:\Users\bee00\OneDrive\桌面\學校\大一下\資料結構與物件導向\Lab\lab3\lab3_110550164\Lab3_template\Lab3\Lab3\PokerGame.cpp(10,12): warning C4244: '引數': 將 'time_t' 轉換為 'unsigned int'，由於類型不同，可能導致資料遺失
-  正在產生程式碼
-  0 of 171 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  已完成程式碼產生
-  Lab3.vcxproj -> C:\Users\bee00\OneDrive\桌面\學校\大一下\資料結構與物件導向\Lab\lab3\lab3_110550164\Lab3_template\Lab3\Release\Lab3.exe
