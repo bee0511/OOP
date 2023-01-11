@@ -1,0 +1,4 @@
+Lisa's avg: 94 (pass)
+Mary's avg: 90 (pass)
+Bob's avg: 79 (pass)
+John's avg: 59 (fail)

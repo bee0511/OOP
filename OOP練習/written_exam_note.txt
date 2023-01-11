@@ -1,0 +1,193 @@
+#heap sort
+2018:
+10.c) [3+2%] Draw a figure of a max heap and a figure of a min heap. Use the following five 
+numbers: 3, 6, 4, 1, 8.
+2021:
+3(d) [1%x4] Describe how to use the maximum priority heap to sort a set of numbers in ascending 
+order. The numbers are stored in an array. There should be four or more steps. The steps are 
+performed one by one. Write down the assumption(s). Use 1, 2, 3, …, to label the steps. 
+
+Step 1 − Remove root node.
+Step 2 − Move the last element of last level to root.
+Step 3 − Compare the value of this child node with its parent.
+Step 4 − If value of parent is less than child, then swap them.
+Step 5 − Repeat step 3 & 4 until Heap property holds.
+
+#delete root in maximum heap
+2020:
+5. [2+2%] Write in words to describe the major steps to delete the root from a maximum heap. Give 
+an example with least 8 unique positive integers to illustrate the steps. Draw at least four figures. 
+You must write down a description about each figure.
+
+Suppose the Heap is a Max-Heap as:
+      10
+    /    \
+   5      3
+  / \
+ 2   4
+
+The element to be deleted is root, i.e. 10.
+
+Process:
+The last element is 4.
+
+Step 1: Replace the last element with root, and delete it.
+      4
+    /    \
+   5      3
+  / 
+ 2   
+
+Step 2: Heapify root.
+Final Heap:
+      5
+    /    \
+   4      3
+  / 
+ 2   
+
+#merge sort
+2019:
+5. [4%] Describe the major steps of merge sort. Use the following 8 elements of an array to show 
+the steps: 5, 3, 2, 6, 1, 8, 7, 4. Sort the elements in ascending order. Draw the result of each step
+
+Partition elements into two near equal smaller sets, n > 1 
+Example: m = (n-1)/2. {0…m}, {m+1,…,n-1}.
+Each of the two smaller parts is sorted recursively.
+The sorted smaller parts are combined, called merging.
+Complexity is O(n log n).
+Can be implemented in a non-recursive manner.
+
+#1) The list to be sorted is divided into two arrays of equal length by dividing the list on the middle element. If the number of elements in the list is either 0 or 1, then the list is considered sorted.
+
+#2) Each sublist is sorted individually by using merge sort recursively.
+
+#3) The sorted sublists are then combined or merged together to form a complete sorted list.
+
+
+#quick sort
+2017:
+Describe the major steps of quick sort. Use the following five elements of an array to show 
+the steps: 5, 3, 2, 6, 1. 
+Sort the elements in ascending order.
+2020:
+10.c) [3+2%] (i) Write in words to describe how the quick sort algorithm works to sort a set of 
+numbers in ascending order. (ii) Draw at least two figures to illustrate the main idea of the quick 
+sort algorithms. Explain the purpose of each figure.
+2021:
+3(a) [1%x4] Describe at least four major steps of quicksort. The input are an array of numbers and 
+its size. Use 1, 2, 3, …, to label the steps.
+
+When n <= 1, the list is sorted.
+When n > 1, select a pivot element.
+Partition the n elements into 3 sets: left, middle and right.
+The middle set contains only the pivot element.
+All elements in the left set are <= pivot.
+All elements in the right set are > pivot.
+Sort left and right sets recursively.
+
+
+#abstract class
+2017:
+10.a) [3%] Define an abstract class. 
+10.b) [2%] How to use an abstract class? Give an example and explain in details.
+2018:
+10.a) [3%] Define an abstract class in fewer than 10 lines.
+10.b) [2%] Can we define an object of an abstract class? If yes, give an example. If no, explain why 
+we cannot create an object of the abstract class.
+
+#singleton class
+2017:
+10.c) [3+2%] Define a singleton class. What is the major property of a singleton class? When 
+should a singleton class be used?
+
+A singleton is a class: 
+ allow only a single instance of itself to be created.
+ give access to that single instance (e.g., give access to class variables)
+ restrict instantiation of a class to a single instance
+
+#swap
+2020:
+10.b) [2+1%] (i) Define a template function swap that swaps two objects of the same type. Use at 
+most three statements in the function body. Deduce 1 point per extra statement. (ii) Write down at 
+least one assumption that ensures the function works well when the function is invoked. 
+
+(i)
+template<typename T>
+void Swap(T &a, T &b){
+    T temp = a;
+    a = b;
+    b = temp;
+}
+(ii)CopyConstructible & CopyAssignable
+
+
+template<typename T>
+swap(T &a,T &b){
+  a^=b;
+  b^=a;
+  a^=b;
+}
+
+
+
+#code for binary tree tranversal
+8. [4+2+2+2%] Write down a class for binary trees. You must explain the meaning of each data 
+field of the class. Then write down the pseudo code for traversing a binary tree based on each of the 
+following traversal methods: 1) preorder, 2) inorder, and 3) post-order.
+
+preorder(Node* root){
+  if(!root) return; // 如果是null節點值就返回
+  visit(root);
+  preorder(root->left);//訪問左子樹
+  preorder(root->right);//訪問右子樹
+}
+
+#exception handling
+10.c) [3+2%] Write an example for exception handling. In the example, the exception argument is a 
+string. Explain how the example works.
+
+try {
+    int result = quotient( n1, n2 );
+    cout << n1 << " / " << n2 << 
+        " is " << result << endl;
+  } catch (string ex) {
+    cout << "Exception: Division by zero" << endl;
+  }
+
+void g(){
+    throw("here");
+}
+
+try {
+        g( );
+    }
+    catch(string e ) {
+        cout << "Error:" << e << endl;
+    }
+
+#template min(arg1,arg2,arg3)
+2019:
+10.b) [2%] Define a template function min that returns the minimum value of three arguments of 
+the same type. Use at most four statements in the function body. Deduce 1 point per extra 
+statement.
+
+template<typename T>
+T min(T a, T b,T c){
+  if(a>b&&a>c)return a;
+  if(b>c)return b;
+  return c
+}
+
+#red black tree (colored node def)
+2021:
+3(c) [1%x4] Write down four properties of a red back tree. Use the colored node definition.
+
+Colored Nodes Definition
+
+1.Binary search tree.
+2.Each node is colored red or black.
+3.Root and all external nodes are black.
+4.Two consecutive red nodes are not allowed along a path from the root to an external node.
+5.All root-to-external-node paths have the same number of black nodes
+
